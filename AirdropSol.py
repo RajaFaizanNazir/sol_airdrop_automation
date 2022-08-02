@@ -6,3 +6,4 @@ address = ['3KhxBQXLnX3Z7xXw4eCBB8ktgf5Wmh2tqxv2pPxjPeFo', 'AT1VNvv9Qq6FsKDE2Kw4
 for addr in address:
     for i in range(12):
         os.system(('solana airdrop 2 ' + addr))
+    os.system(('solana airdrop 1 ' + addr))
